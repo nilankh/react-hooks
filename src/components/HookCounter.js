@@ -1,3 +1,4 @@
+// lecture2 useState Hook
 import React, {useState} from 'react'
 
 // first step is to create a component
