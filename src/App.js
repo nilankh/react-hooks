@@ -5,11 +5,15 @@ import './App.css';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookCounter3 from './components/HookCounter3';
 import HookCounter4 from './components/HookCounter4';
+import ClassCounterOne from './components/ClassCounterOne';
+import HookCounterOne from './components/HookCounterOne';
 
 function App() {
   return (
     <div className="App">
-      <HookCounter4 />
+      <HookCounterOne />
+      {/* <ClassCounterOne /> */}
+      {/* <HookCounter4 /> */}
       {/* <HookCounter3 /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounter /> */}
