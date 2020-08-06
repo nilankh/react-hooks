@@ -10,12 +10,13 @@ import HookCounterOne from "./components/HookCounterOne";
 import HookCounterOOne from "./components/HookCounterOOne";
 import ClassMouse from "./components/ClassMouse";
 import HookMouse from "./components/HookMouse";
+import MouseContainer from "./components/MouseContainer";
 
 function App() {
   return (
     <div className="App">
-      
-      <HookMouse />
+      <MouseContainer />
+      {/* <HookMouse /> */}
       {/* <ClassMouse /> */}
       {/* <HookCounterOOne /> */}
       {/* <ClassCounterOOne /> */}
