@@ -2,24 +2,26 @@ import React from "react";
 import "./App.css";
 // import ClassCounter from './components/ClassCounter';
 // import HookCounter from './components/HookCounter';
-import HookCounterTwo from "./components/HookCounterTwo";
-import HookCounter3 from "./components/HookCounter3";
-import HookCounter4 from "./components/HookCounter4";
-import ClassCounterOOne from "./components/ClassCounterOOne";
-import HookCounterOne from "./components/HookCounterOne";
-import HookCounterOOne from "./components/HookCounterOOne";
-import ClassMouse from "./components/ClassMouse";
-import HookMouse from "./components/HookMouse";
-import MouseContainer from "./components/MouseContainer";
-import IntervalClassCounter from "./components/IntervalClassCounter";
-import IntervalHookCounter from "./components/IntervalHookCounter";
-import DataFetching from "./components/DataFetching";
-import DataFetching2 from "./components/DataFetching2";
+// import HookCounterTwo from "./components/HookCounterTwo";
+// import HookCounter3 from "./components/HookCounter3";
+// import HookCounter4 from "./components/HookCounter4";
+// import ClassCounterOOne from "./components/ClassCounterOOne";
+// import HookCounterOne from "./components/HookCounterOne";
+// import HookCounterOOne from "./components/HookCounterOOne";
+// import ClassMouse from "./components/ClassMouse";
+// import HookMouse from "./components/HookMouse";
+// import MouseContainer from "./components/MouseContainer";
+// import IntervalClassCounter from "./components/IntervalClassCounter";
+// import IntervalHookCounter from "./components/IntervalHookCounter";
+// import DataFetching from "./components/DataFetching";
+// import DataFetching2 from "./components/DataFetching2";
+import DataFetching3 from "./components/DataFetching3";
 
 function App() {
   return (
     <div className="App">
-      <DataFetching2 />
+      <DataFetching3 />
+      {/* <DataFetching2 /> */}
       {/* <DataFetching /> */}
       {/* <IntervalHookCounter />
       <IntervalClassCounter /> */}
