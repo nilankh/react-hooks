@@ -14,12 +14,13 @@ import MouseContainer from "./components/MouseContainer";
 import IntervalClassCounter from "./components/IntervalClassCounter";
 import IntervalHookCounter from "./components/IntervalHookCounter";
 import DataFetching from "./components/DataFetching";
+import DataFetching2 from "./components/DataFetching2";
 
 function App() {
   return (
     <div className="App">
-
-      <DataFetching />
+      <DataFetching2 />
+      {/* <DataFetching /> */}
       {/* <IntervalHookCounter />
       <IntervalClassCounter /> */}
       {/* <MouseContainer /> */}
