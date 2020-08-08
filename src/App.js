@@ -17,17 +17,24 @@ import "./App.css";
 // import DataFetching2 from "./components/DataFetching2";
 import DataFetching3 from "./components/DataFetching3";
 import ComponentC from "./components/ComponentC";
+import CounterOne from "./components/CounterOne";
+import CounterTwo from "./components/CounterTwo";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={"Nilank"}>
+
+      <CounterTwo />
+      {/* <CounterOne /> */}
+      {/* <UserContext.Provider value={"Nilank"}>
         <ChannelContext.Provider value={'Ninja'}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+
       {/* <DataFetching3 /> */}
       {/* <DataFetching2 /> */}
       {/* <DataFetching /> */}
