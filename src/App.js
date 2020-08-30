@@ -28,7 +28,7 @@ export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <ClassCounterTwo />
+      {/* <ClassCounterTwo /> */}
       <ReviseCounter />
       {/* <CounterThree /> */}
       {/* <CounterTwo /> */}
