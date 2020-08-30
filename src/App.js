@@ -3,6 +3,7 @@ import "./App.css";
 // import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
 import ReviseCounter from "./components/ReviseCounter";
+import ClassCounterTwo from "./components/ClassCounterTwo";
 // import HookCounterTwo from "./components/HookCounterTwo";
 // import HookCounter3 from "./components/HookCounter3";
 // import HookCounter4 from "./components/HookCounter4";
@@ -27,6 +28,7 @@ export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
+      <ClassCounterTwo />
       <ReviseCounter />
       {/* <CounterThree /> */}
       {/* <CounterTwo /> */}
