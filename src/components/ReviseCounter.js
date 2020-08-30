@@ -1,21 +1,24 @@
 import React, { useState } from "react";
 
 function ReviseCounter() {
-  const [name, setName] = useState({ firstName: "", lastName: "" });
+  const [items, setItems] = useState([]);
+  const addItem = () => {
+    setItems([
+      ...items,
+      {
+        id: items.length,
+        value: Math.floor(Math.random() * 10) + 1,
+      },
+    ]);
+  };
   return (
     <div>
-      <input
-        type="text"
-        value={name.firstName}
-        onChange={(e) => setName({ ...name, firstName: e.target.value })}
-      />
-      <input
-        type="text"
-        value={name.lastName}
-        onChange={(e) => setName({ ...name, lastName: e.target.value })}
-      />
-      <h2>Your First Name is -{name.firstName}</h2>
-      <h2>Your Last Name is -{name.lastName}</h2>
+      <button onClick={addItem}>Add a number</button>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>{item.value}</li>
+        ))}
+      </ul>
     </div>
   );
 }

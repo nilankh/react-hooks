@@ -11,6 +11,7 @@ function HookCounter3() {
         value={name.firstName}
         // onChange={(e) => setName({ firstName: e.target.value })} isse dikkat aaayegi u can check by commmenting  neeche wala line
         onChange={(e) => setName({ ...name, firstName: e.target.value })}
+        // setter function doesn't merge and update, we need to handle manually  so as written in below line
         // (...name) copy every property in name object and just overwrite the first name field with a different field
       />
       <input

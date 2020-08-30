@@ -5,8 +5,8 @@ import "./App.css";
 import ReviseCounter from "./components/ReviseCounter";
 // import ClassCounterTwo from "./components/ClassCounterTwo";
 // import HookCounterTwo from "./components/HookCounterTwo";
-import HookCounter3 from "./components/HookCounter3";
-// import HookCounter4 from "./components/HookCounter4";
+// import HookCounter3 from "./components/HookCounter3";
+import HookCounter4 from "./components/HookCounter4";
 // import ClassCounterOOne from "./components/ClassCounterOOne";
 // import HookCounterOne from "./components/HookCounterOne";
 // import HookCounterOOne from "./components/HookCounterOOne";
@@ -52,7 +52,7 @@ function App() {
       {/* <ClassCounterOOne /> */}
       {/* <HookCounterOne /> */}
       {/* <ClassCounterOne /> */}
-      {/* <HookCounter4 /> */}
+      <HookCounter4 />
       {/* <HookCounter3 /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounter /> */}
