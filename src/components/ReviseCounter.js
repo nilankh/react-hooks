@@ -1,26 +1,21 @@
 import React, { useState } from "react";
 
 function ReviseCounter() {
-  const initialCount = 0;
-
-  const [count, setCount] = useState(initialCount);
-  const incrementFive = () => {
-    for (let i = 0; i < 5; i++) {
-      setCount((prevCount) => prevCount + 1);
-    }
-  };
+  const [name, setName] = useState({ firstName: "", lastName: "" });
   return (
     <div>
-      Count:{count}
-      <button onClick={() => setCount(initialCount)}>Reset</button>
-      <button onClick={() => setCount((prevCount) => prevCount + 1)}>
-        Increment{" "}
-      </button>
-      <button onClick={() => setCount((prevCount) => prevCount - 1)}>
-        Decrement{" "}
-      </button>
-      <button onClick={incrementFive}>Increment 5</button>
-      {/* <button onClick={()=>setCount( (prevCount) => prevCount+ 5)}>Increment 5</button> */}
+      <input
+        type="text"
+        value={name.firstName}
+        onChange={(e) => setName({ ...name, firstName: e.target.value })}
+      />
+      <input
+        type="text"
+        value={name.lastName}
+        onChange={(e) => setName({ ...name, lastName: e.target.value })}
+      />
+      <h2>Your First Name is -{name.firstName}</h2>
+      <h2>Your Last Name is -{name.lastName}</h2>
     </div>
   );
 }
