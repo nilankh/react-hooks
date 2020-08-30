@@ -1,10 +1,15 @@
 import React,{useState} from 'react'
 
 function ReviseCounter() {
-    const [count, setCount] = useState(0)
+    const initialCount = 0
+
+    const [count, setCount] = useState(initialCount)
     return (
         <div>
-            <button onClick={() =>setCount(count + 1)}>Count{count}</button>
+            Count:{count}
+            <button onClick={() => setCount(initialCount)}>Reset</button>
+            <button onClick={() =>setCount(count + 1)}>Increment </button>
+            <button onClick={() =>setCount(count - 1)}>Decrement </button>
         </div>
     )
 }
