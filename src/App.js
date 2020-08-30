@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
 // import ClassCounter from './components/ClassCounter';
-// import HookCounter from './components/HookCounter';
+import HookCounter from './components/HookCounter';
+import ReviseCounter from "./components/ReviseCounter";
 // import HookCounterTwo from "./components/HookCounterTwo";
 // import HookCounter3 from "./components/HookCounter3";
 // import HookCounter4 from "./components/HookCounter4";
@@ -15,19 +16,19 @@ import "./App.css";
 // import IntervalHookCounter from "./components/IntervalHookCounter";
 // import DataFetching from "./components/DataFetching";
 // import DataFetching2 from "./components/DataFetching2";
-import DataFetching3 from "./components/DataFetching3";
-import ComponentC from "./components/ComponentC";
-import CounterOne from "./components/CounterOne";
-import CounterTwo from "./components/CounterTwo";
-import CounterThree from "./components/CounterThree";
+// import DataFetching3 from "./components/DataFetching3";
+// import ComponentC from "./components/ComponentC";
+// import CounterOne from "./components/CounterOne";
+// import CounterTwo from "./components/CounterTwo";
+// import CounterThree from "./components/CounterThree";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      
-      <CounterThree />
+      <ReviseCounter />
+      {/* <CounterThree /> */}
       {/* <CounterTwo /> */}
       {/* <CounterOne /> */}
       {/* <UserContext.Provider value={"Nilank"}>
