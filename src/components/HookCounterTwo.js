@@ -22,6 +22,7 @@ function HookCounterTwo() {
         Decrement
       </button>
       <button onClick={incrementFive}>Increment 5</button>
+      {/* <button onClick={()=>setCount( (prevCount) => prevCount+ 5)}>Increment 5</button> */}
     </div>
   );
 }
