@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
 // import ClassCounter from './components/ClassCounter';
+// import ClassCounterOne from "./components/ClassCounterOne";
 // import HookCounter from './components/HookCounter';
 import ReviseCounter from "./components/ReviseCounter";
 // import ClassCounterTwo from "./components/ClassCounterTwo";
 // import HookCounterTwo from "./components/HookCounterTwo";
 // import HookCounter3 from "./components/HookCounter3";
-import HookCounter4 from "./components/HookCounter4";
+// import HookCounter4 from "./components/HookCounter4";
 // import ClassCounterOOne from "./components/ClassCounterOOne";
-// import HookCounterOne from "./components/HookCounterOne";
+import HookCounterOne from "./components/HookCounterOne";
 // import HookCounterOOne from "./components/HookCounterOOne";
 // import ClassMouse from "./components/ClassMouse";
 // import HookMouse from "./components/HookMouse";
@@ -23,8 +24,8 @@ import HookCounter4 from "./components/HookCounter4";
 // import CounterTwo from "./components/CounterTwo";
 // import CounterThree from "./components/CounterThree";
 
-export const UserContext = React.createContext();
-export const ChannelContext = React.createContext();
+// export const UserContext = React.createContext();
+// export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
@@ -39,7 +40,6 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
 
-
       {/* <DataFetching3 /> */}
       {/* <DataFetching2 /> */}
       {/* <DataFetching /> */}
@@ -50,9 +50,9 @@ function App() {
       {/* <ClassMouse /> */}
       {/* <HookCounterOOne /> */}
       {/* <ClassCounterOOne /> */}
-      {/* <HookCounterOne /> */}
+      <HookCounterOne />
       {/* <ClassCounterOne /> */}
-      <HookCounter4 />
+      {/* <HookCounter4 /> */}
       {/* <HookCounter3 /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounter /> */}

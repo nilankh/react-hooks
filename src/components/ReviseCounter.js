@@ -1,26 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function ReviseCounter() {
-  const [items, setItems] = useState([]);
-  const addItem = () => {
-    setItems([
-      ...items,
-      {
-        id: items.length,
-        value: Math.floor(Math.random() * 10) + 1,
-      },
-    ]);
-  };
+  const [count, setCount] = useState(0);
+  useEffect(() =>{
+    document.title=`You Cliked ${count} times`
+  })
   return (
     <div>
-      <button onClick={addItem}>Add a number</button>
-      <ul>
-        {items.map((item) => (
-          <li key={item.id}>{item.value}</li>
-        ))}
-      </ul>
+      <button onClick={() => setCount(count + 1)}>Count {count}times re</button>
     </div>
-  );
+  )
 }
 
-export default ReviseCounter;
+export default ReviseCounter
