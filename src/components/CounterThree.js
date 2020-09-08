@@ -18,7 +18,7 @@ const reducer = (state, action) => {
 
 function CounterThree() {
   const [count, dispatch] = useReducer(reducer, initialState);
-    const [countTwo, dispatchTwo] = useReducer(reducer, initialState)
+  const [countTwo, dispatchTwo] = useReducer(reducer, initialState);
   return (
     <div>
       <div>Count -{count}</div>
