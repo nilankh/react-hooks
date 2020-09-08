@@ -3,7 +3,7 @@ import "./App.css";
 // import ClassCounter from './components/ClassCounter';
 // import ClassCounterOne from "./components/ClassCounterOne";
 // import HookCounter from './components/HookCounter';
-import ReviseCounter from "./components/ReviseCounter";
+// import ReviseCounter from "./components/ReviseCounter";
 // import ClassCounterTwo from "./components/ClassCounterTwo";
 // import HookCounterTwo from "./components/HookCounterTwo";
 // import HookCounter3 from "./components/HookCounter3";
@@ -20,7 +20,7 @@ import HookCounterOne from "./components/HookCounterOne";
 // import DataFetching2 from "./components/DataFetching2";
 // import DataFetching3 from "./components/DataFetching3";
 // import ComponentC from "./components/ComponentC";
-// import CounterOne from "./components/CounterOne";
+import CounterOne from "./components/CounterOne";
 // import CounterTwo from "./components/CounterTwo";
 // import CounterThree from "./components/CounterThree";
 
@@ -30,10 +30,10 @@ function App() {
   return (
     <div className="App">
       {/* <ClassCounterTwo /> */}
-      <ReviseCounter />
+      {/* <ReviseCounter /> */}
       {/* <CounterThree /> */}
       {/* <CounterTwo /> */}
-      {/* <CounterOne /> */}
+      <CounterOne />
       {/* <UserContext.Provider value={"Nilank"}>
         <ChannelContext.Provider value={'Ninja'}>
           <ComponentC />

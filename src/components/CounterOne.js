@@ -17,7 +17,9 @@ const reducer = (state, action) => {
 };
 
 function CounterOne() {
+  // similar to useState useReducer returns also a pair of value which  we can get hold off array D strcutuing syntax, useReducer returns the currentState which we have called as count paired with a dispatch method, this dispatch method allows us to execute the code corresponding to a particular actions.
   const [count, dispatch] = useReducer(reducer, initialState);
+  // console.log("COunt", count)
 
   return (
     <div>
